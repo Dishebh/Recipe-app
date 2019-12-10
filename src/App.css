@@ -1,0 +1,32 @@
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+
+}
+
+.form-input {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.form-button {
+  background: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+
+}
+
+.Recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
